@@ -1,0 +1,212 @@
+{
+  "global": {
+    "title": "Component toolkit for creating live-running code editing experiences | Sandpack",
+    "description": "Sandpack is a component toolkit for creating your own live-running code editing experiences powered by CodeSandbox."
+  },
+  "meta": [
+    {
+      "name": "og:type",
+      "value": "website"
+    },
+    {
+      "name": "og:site_name",
+      "value": "Sandpack"
+    },
+    {
+      "name": "og:title",
+      "value": "Component toolkit for creating live-running code editing experiences | Sandpack"
+    },
+    {
+      "name": "og:description",
+      "value": "Sandpack is a component toolkit for creating live-running code editing experiences powered by CodeSandbox."
+    },
+    {
+      "name": "og:image",
+      "value": "assets/sandpack_og.jpeg"
+    },
+    {
+      "name": "og:url",
+      "value": ""
+    }
+  ],
+  "footer": {
+    "text": "powered by"
+  },
+  "commands": {
+    "import": "import { Sandpack } from \"@codesandbox/sandpack-react\"",
+    "install": "npm install @codesandbox/sandpack-react"
+  },
+  "resources": [
+    {
+      "name": "Docs",
+      "url": "/docs/"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/codesandbox/sandpack"
+    }
+  ],
+
+  "banner": {
+    "title": "开始使用<br />Sandpack"
+  },
+  "community": {
+    "title": "社区参与",
+    "list": [
+      {
+        "name": "Twitter",
+        "socialUrl": "https://twitter.com/codesandbox",
+        "description": "Sandpack wouldn't exist without this fantastic community of developers. Follow @codesandbox on Twitter to get the latest updates.",
+        "logoUrl": "/assets/logos/Twitter.svg"
+      },
+      {
+        "name": "Discord",
+        "socialUrl": "https://discord.com/invite/5BpufEP7MH",
+        "description": "Our Discord community enables people worldwide to share tips, showcase their best thinking, and forge meaningful connections.",
+        "logoUrl": "/assets/logos/Discord.svg"
+      },
+      {
+        "name": "GitHub",
+        "socialUrl": "https://github.com/codesandbox/sandpack",
+        "description": "We're always looking for contributors to help us fix bugs, build new features, or improve the documentation. If you're interested, definitely check out our repository.",
+        "logoUrl": "/assets/logos/GitHub.svg"
+      }
+    ]
+  },
+  "features": {
+    "title": "<span class=\"highlight\">快速</span>创建</br>实时编码环境",
+    "highlights": [
+      {
+        "title": "创建交互式文档",
+        "description": "轻松在您的Docs中创建实时编码环境。Sandpack 在后台运行 <a href='https://codemirror.net/' rel='noreferrer' target='_blank' class='external-link'>CodeMirror</a>，为您提供代码编辑器和语法高亮的所有基本功能。但您也可以使用自己的编辑器！",
+        "iconKey": "editor"
+      },
+      {
+        "title": "构建低代码工具",
+        "description": "凭借内置的 npm 依赖项支持、热模块重新加载、错误覆盖、缓存和 Node.js 支持，Sandpack 可以预览配置更新、测试产品输出、检查脚本集成等。",
+        "iconKey": "preview"
+      },
+      {
+        "title": "单击即可继续编码",
+        "description": "使用 Sandpack，您只需单击一下即可在 CodeSandbox 中打开代码片段。这样，您就可以通过唯一的 URL 轻松分享错误报告或示例。",
+        "iconKey": "export"
+      }
+    ]
+  },
+  "intro": {
+    "title": "<span class=\"highlight\">在浏览器中</span><br />实时编码"
+  },
+  "advancedUsage": {
+    "title": "Sandpack 生态系统<br />构建模块。",
+    "examples": [
+      {
+        "title": "Providers & Custom Hooks",
+        "description": "<a href='https://sandpack.codesandbox.io/docs/advanced-usage/provider#sandpack-provider' rel='noreferrer' target='_blank'><code>SandpackProvider</code></a>可用于管理状态和操作，而<a href='https://sandpack.codesandbox.io/docs/advanced-usage/provider#theme-provider' rel='noreferrer' target='_blank'><code>ThemeProvider</code></a> 则处理主题和样式，<code>hooks</code>让您可以访问状态并提供用于将自定义组件集成到 Sandpack 中的 API。",
+        "illustrationKey": "providers"
+      },
+      {
+        "title": "Sandpack 组件",
+        "description": "<a href='https://sandpack.codesandbox.io/docs/advanced-usage/components' rel='noreferrer' target='_blank'><code>&#60;Sandpack /&#62;</code></a>组件由一些较小的部分组成，您可以单独导入这些部分以与您的自定义组件结合。",
+        "illustrationKey": "components"
+      },
+      {
+        "title": "Sandpack Client",
+        "description": "捆绑器由一个名为 <a href='https://sandpack.codesandbox.io/docs/advanced-usage/client' rel='noreferrer' target='_blank'><code>sandpack-client</code></a> 的小包包裹，该包与框架无关，并允许您利用捆绑器协议。",
+        "illustrationKey": "client"
+      },
+      {
+        "title": "Nodebox",
+        "description": "Sandpack 带来了 <a href='https://codesandbox.io/blog/announcing-sandpack-2' rel='noreferrer' target='_blank'><code>Nodebox</code></a>，它自己的 Node.js 运行时允许您在任何浏览器中运行服务器端代码。内置对 Next.js、Remix、Vite、Astro 等的支持。",
+        "illustrationKey": "providers"
+      }
+    ]
+  },
+  "showCase": {
+    "title": "Showcase",
+    "highlights": [
+      {
+        "title": "React docs",
+        "imageSource": "/assets/showcase/react-docs.jpg",
+        "url": "https://react.dev/learn",
+        "description": "想要在指南或示例旁边的同一页面上尝试解决方案吗？借助 Sandpack，您可以将编码环境直接嵌入到文档中。"
+      },
+      {
+        "title": "声音演示",
+        "imageSource": "/assets/showcase/sound-demo.jpg",
+        "url": "https://code-sound.vercel.app",
+        "description": "如何使用声音来打造一种有氛围的编辑体验？例如，尝试将史诗般的功能编码到奇幻冒险的背景音乐中，或者在冥想禅宗中用有气氛的音乐修复错误。"
+      },
+      {
+        "title": "多个预览",
+        "imageSource": "/assets/showcase/mulitple-preview.jpg",
+        "url": "https://codesandbox.io/s/multiple-previews-forked-9w4f1",
+        "description": "对于生成代码或响应式设计，Sandpack 可以渲染多个预览，以帮助您看到所需的所有变化。"
+      },
+      {
+        "title": "Varun Vachhar 的互动博客文章",
+        "imageSource": "/assets/showcase/interactive.jpg",
+        "url": "https://varun.ca/modular-webgl/#data--state",
+        "description": "Sandpack 也非常适合博客文章。为读者提供内联代码示例，同时保持博客代码易于维护。"
+      }
+    ]
+  },
+  "users": {
+    "title": "谁在使用 Sandpack.",
+    "list": [
+      {
+        "name": "CodeAmigo",
+        "socialUrl": "https://codeamigo.dev/",
+        "logo": {
+          "url": "/assets/logos/CodeAmigo.svg",
+          "height": 50,
+          "width": 250
+        }
+      },
+      {
+        "name": "React",
+        "socialUrl": "https://react.dev/",
+        "logo": {
+          "url": "/assets/logos/React.svg",
+          "height": 50,
+          "width": 250
+        }
+      },
+      {
+        "name": "CodeHike",
+        "socialUrl": "https://codehike.org",
+        "logo": {
+          "url": "/assets/logos/CodeHike.svg",
+          "height": 50,
+          "width": 250
+        }
+      },
+      {
+        "name": "GitLab",
+        "socialUrl": "https://gitlab.com",
+        "logo": {
+          "url": "/assets/logos/GitLab.svg",
+          "height": 50,
+          "width": 250
+        }
+      },
+      {
+        "name": "Amplify",
+        "socialUrl": "https://ui.docs.amplify.aws/",
+        "logo": {
+          "url": "/assets/logos/Amplify.svg",
+          "height": 50,
+          "width": 250
+        }
+      },
+      {
+        "name": "Storybook",
+        "socialUrl": "https://storybook.js.org/",
+        "logo": {
+          "url": "/assets/logos/Storybook.svg",
+          "height": 40,
+          "width": 200
+        }
+      }
+    ]
+  }
+}

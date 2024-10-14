@@ -1,0 +1,13 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.js",
+  "/": "pages/index.js",
+  "/getting-started": "pages/getting-started.js",
+  "/quickstart": "pages/quickstart.js",
+  "/getting-started/usage": "pages/getting-started/usage.js",
+  "/getting-started/layout": "pages/getting-started/layout.js",
+  "/getting-started/private-packages": "pages/getting-started/private-packages.js",
+  "/getting-started/themes": "pages/getting-started/themes.js"
+}

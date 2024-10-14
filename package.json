@@ -6,14 +6,31 @@
     "dev": "pnpm run -C docs/collection dev",
     "build": "pnpm run -C docs/collection build",
     "preview": "pnpm run -C docs/collection preview",
-    "dev:sp": "pnpm run -C docs/sandpack dev",
-    "start:sp": "pnpm run -C docs/sandpack start",
-    "build:sp": "pnpm run -C docs/sandpack build",
-    "build:sp:theme": "pnpm run -C packages/codesandbox-theme-docs build",
-    "tsup": "pnpm run -C packages/codesandbox-theme-docs tsup"
+    "-----------": "----------------------------------",
+    "dev:docs-cn": "pnpm run -C sandpack/docs.cn dev",
+    "build:docs-cn": "pnpm run -C sandpack/docs.cn build",
+    "dev:landing-cn": "pnpm run -C sandpack/landing.cn dev",
+    "build:landing-cn": "pnpm run -C sandpack/landing.cn build",
+    "dev:theme-cn": "pnpm run -C sandpack/theme.cn dev",
+    "build:theme-cn": "pnpm run -C sandpack/theme.cn build"
   },
   "dependencies": {
     "typescript": "^5.6.3"
+  },
+  "devDependencies": {
+    "webpack": "^5.95.0"
+  },
+  "pnpm": {
+    "overrides": {
+      "@rspress/core": "^1.32.0",
+      "@rspress/shared": "^1.32.0",
+      "react": "^18.3.1",
+      "react-dom": "^18.3.1",
+      "react-is": "^18.3.1",
+      "lodash-es": "^4.17.21",
+      "lodash": "^4.17.21",
+      "webpack": "^5.95.0"
+    }
   },
   "packageManager": "pnpm@9.11.0"
 }
