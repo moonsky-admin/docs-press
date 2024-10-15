@@ -25,6 +25,7 @@
     "@types/amplitude-js": "^8.0.2",
     "@types/node": "16.11.6",
     "@types/react": "^18.0.15",
+    "@typescript-eslint/eslint-plugin": "^8.9.0",
     "eslint-config-next": "12.0.2",
     "typescript": "^5.2.2",
     "url-loader": "^4.1.1"

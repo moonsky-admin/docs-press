@@ -7,12 +7,21 @@
     "build": "pnpm run -C docs/collection build",
     "preview": "pnpm run -C docs/collection preview",
     "-----------": "----------------------------------",
-    "dev:docs-cn": "pnpm run -C sandpack/docs.cn dev",
-    "build:docs-cn": "pnpm run -C sandpack/docs.cn build",
-    "dev:landing-cn": "pnpm run -C sandpack/landing.cn dev",
-    "build:landing-cn": "pnpm run -C sandpack/landing.cn build",
-    "dev:theme-cn": "pnpm run -C sandpack/theme.cn dev",
-    "build:theme-cn": "pnpm run -C sandpack/theme.cn build"
+    "dev:docs.cn": "pnpm run -C sandpack/docs.cn dev",
+    "build:docs.cn": "pnpm run -C sandpack/docs.cn build",
+    "dev:landing.cn": "pnpm run -C sandpack/landing.cn dev",
+    "build:landing.cn": "pnpm run -C sandpack/landing.cn build",
+    "dev:theme.cn": "pnpm run -C sandpack/theme.cn dev",
+    "build:theme.cn": "pnpm run -C sandpack/theme.cn build",
+    "build:sp.cn": "pnpm run \"/^build:\\w+\\.cn/\"",
+
+    "dev:docs.en": "pnpm run -C sandpack/docs.en dev",
+    "build:docs.en": "pnpm run -C sandpack/docs.en build",
+    "dev:landing.en": "pnpm run -C sandpack/landing.en dev",
+    "build:landing.en": "pnpm run -C sandpack/landing.en build",
+    "dev:theme.en": "pnpm run -C sandpack/theme.en dev",
+    "build:theme.en": "pnpm run -C sandpack/theme.en build",
+    "build:sp.en": "pnpm run \"/^build:\\w+\\.en/\""
   },
   "dependencies": {
     "typescript": "^5.6.3"

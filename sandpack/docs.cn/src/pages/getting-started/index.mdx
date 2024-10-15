@@ -2,13 +2,13 @@ import { IntroSection, IntroCard } from "../../components/IntroCard";
 import { Callout, Tabs, Tab } from "nextra-theme-docs";
 import { CodeBlock } from "../../components/CodeBlock";
 
-# Install
+# 安装
 
-Install the Sandpack dependency on your project.
+在项目中安装`Sandpack`依赖
 
 <Tabs items={["npm", "yarn", "pnpm"]}>
 
-  <Tab>  
+  <Tab>
 ```bash
 npm i @codesandbox/sandpack-react
 ```
@@ -16,23 +16,23 @@ npm i @codesandbox/sandpack-react
 
   <Tab>
 ```bash
-yarn add @codesandbox/sandpack-react 
+yarn add @codesandbox/sandpack-react
 ```
   </Tab>
 
   <Tab>
 ```bash
-pnpm add @codesandbox/sandpack-react 
+pnpm add @codesandbox/sandpack-react
 ```
   </Tab>
-  
+
 </Tabs>
 
-All the components and the bundler are packed inside the `Sandpack` component, which is a named export of the package. Besides that, the package contains multiple **components**, **utilities** and **typings**.
+所有组件和打包器都打包在 `Sandpack` 组件中，该组件是该包的命名导出。除此之外，该包还包含多个**组件**, **实用工具** 和 **类型**。
 
-## Quickstart
+## 快速入门
 
-This should give you a nice code editor with a preview that runs in the browser.
+这将为您提供一个美观的代码编辑器，并在浏览器中运行和预览。
 
 <CodeBlock stack>
 {`import { Sandpack } from "@codesandbox/sandpack-react";
@@ -45,7 +45,7 @@ export default function App() {
 
 ## CDN
 
-To use Sandpack with CDN, simply include the Sandpack tag in your HTML file and specify the CDN imports inluding Sandpack and its dependencies.
+要将 Sandpack 与 CDN 一起使用，只需在 HTML 文件中包括 Sandpack 标签并指定包括 Sandpack 及其依赖项的 CDN 导入。
 
 <br />
 
@@ -87,20 +87,20 @@ To use Sandpack with CDN, simply include the Sandpack tag in your HTML file and 
 </html>
 ```
 
-## Next steps
+## 下一步
 
 <IntroSection>
   <IntroCard
     icon="Code"
-    title="Templates & files"
-    description="Learn how to add files to your projects and start coding in record time."
+    title="模板和文件 (Templates & files)"
+    description="了解如何将文件添加到您的项目中并快速开始编码"
     href="/docs/getting-started/usage"
   />
 
   <IntroCard
     icon="Theme"
-    title="Themes"
-    description="Design and customize your own theme and find other Sandpack presets."
+    title="主题 (Themes)"
+    description="设计和定制您自己的主题并查找其他 Sandpack 预设"
     href="/docs/getting-started/themes"
   />
 </IntroSection>

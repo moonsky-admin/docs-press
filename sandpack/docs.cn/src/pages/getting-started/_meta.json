@@ -1,11 +1,11 @@
 {
   "index": {
-    "title": "Install",
+    "title": "安装 (Install)",
     "label": "React"
   },
   "quickstart": {
     "type": "page",
-    "title": "Quickstart",
+    "title": "快速开始",
     "href": "/quickstart"
   },
   "usage": "Usage",
